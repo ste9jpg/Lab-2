@@ -5,16 +5,17 @@ input[type="phone"],
 input[type="date"],
 input[type="submit"] {
   color: lightblue;
+  display: block; /* Display them as block elements */
+  margin-bottom: 10px; /* Add spacing between each element */
 }
 
 /* Add some padding and margin to the form elements */
 label,
 input[type="email"],
 input[type="phone"],
-input[type="date"],
+input[type="date"],S
 input[type="submit"] {
   padding: 5px;
-  margin: 5px;
 }
 
 /* Style the form container */
@@ -23,6 +24,7 @@ input[type="submit"] {
   padding: 10px;
   border: 1px solid blue;
   border-radius: 5px;
+  text-align: center; /* Center the text inside the container */
 }
 
 /* Style the submit button */
@@ -39,4 +41,3 @@ input[type="submit"] {
 #submit:hover {
   background-color: darkblue;
 }
-
