@@ -4,7 +4,7 @@ input[type="email"],
 input[type="phone"],
 input[type="date"],
 input[type="submit"] {
-  color: lightblue;
+  color: black;
   display: block; /* Display them as block elements */
   margin-bottom: 10px; /* Add spacing between each element */
 }
@@ -24,7 +24,7 @@ input[type="submit"] {
   padding: 10px;
   border: 1px solid blue;
   border-radius: 5px;
-  text-align: center; /* Center the text inside the container */
+  text-align: center; 
 }
 
 /* Style the submit button */
