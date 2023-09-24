@@ -4,14 +4,22 @@ input[type="phone"],
 input[type="date"],
 input[type="submit"] {
   color: lightblue;
-  display: block; 
-  margin-bottom: 10px; /
+  
+label,
+input[type="email"],
+input[type="phone"],
+input[type="date"],
+input[type="submit"] {
+  color: lightblue;
+  display: block;
+  margin-bottom: 10px; 
+}
 
 
 label,
 input[type="email"],
 input[type="phone"],
-input[type="date"],S
+input[type="date"],
 input[type="submit"] {
   padding: 5px;
 }
