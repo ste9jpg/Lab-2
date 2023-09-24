@@ -1,15 +1,13 @@
-/* Style the labels and input fields with light blue color */
 label,
 input[type="email"],
 input[type="phone"],
 input[type="date"],
 input[type="submit"] {
   color: lightblue;
-  display: block; /* Display them as block elements */
-  margin-bottom: 10px; /* Add spacing between each element */
-}
+  display: block; 
+  margin-bottom: 10px; /
 
-/* Add some padding and margin to the form elements */
+
 label,
 input[type="email"],
 input[type="phone"],
@@ -18,16 +16,16 @@ input[type="submit"] {
   padding: 5px;
 }
 
-/* Style the form container */
+
 #container {
   background-color: lightblue;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid blue;
   border-radius: 5px;
-  text-align: center; /* Center the text inside the container */
+  text-align: center; 
 }
 
-/* Style the submit button */
+
 #submit {
   background-color: blue;
   color: white;
@@ -37,7 +35,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* Style the submit button on hover */
+
 #submit:hover {
   background-color: darkblue;
 }
