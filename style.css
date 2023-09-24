@@ -3,3 +3,44 @@ body{
 	font-family: Arial;
 	font-size: 1.3em;
 }
+/* Style the labels and input fields with light blue color */
+label,
+input[type="email"],
+input[type="phone"],
+input[type="date"],
+input[type="submit"] {
+  color: lightblue;
+}
+
+/* Add some padding and margin to the form elements */
+label,
+input[type="email"],
+input[type="phone"],
+input[type="date"],
+input[type="submit"] {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Style the form container */
+#container {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+#submit {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+#submit:hover {
+  background-color: darkblue;
+}
