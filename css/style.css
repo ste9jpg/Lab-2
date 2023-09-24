@@ -1,21 +1,4 @@
-label,
-input[type="email"],
-input[type="phone"],
-input[type="date"],
-input[type="submit"] {
-  color: black;
-  display: block; 
-  margin-bottom: 10px; /* Add spacing between each element */
-}
 
-/* Add some padding and margin to the form elements */
-label,
-input[type="email"],
-input[type="phone"],
-input[type="date"],
-input[type="submit"] {
-  padding: 5px;
-}
 
 /* Style the form container */
 #container {
@@ -25,6 +8,15 @@ input[type="submit"] {
   padding: 20px;
   text-align: center; 
   height: 350px:
+}
+
+input{
+	box-sizing: border-box;
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 /* Style the submit button */
