@@ -3,44 +3,72 @@ body{
 	font-family: Arial;
 	font-size: 1.3em;
 }
-/* Style the labels and input fields with light blue color */
-label,
-input[type="email"],
-input[type="phone"],
-input[type="date"],
-input[type="submit"] {
-  color: lightblue;
+
+#container{
+	margin: 50px auto;
+	border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	color: blue;
+	height: 350px;
 }
 
-/* Add some padding and margin to the form elements */
-label,
-input[type="email"],
-input[type="phone"],
-input[type="date"],
-input[type="submit"] {
-  padding: 5px;
-  margin: 5px;
+
+input{
+	box-sizing: border-box;
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-/* Style the form container */
-#container {
-  background-color: lightblue;
-  padding: 10px;
-  border: 1px solid blue;
-  border-radius: 5px;
+
+#submit{
+	display: block;
+	width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+	margin-top: 20px;
+	background-color: blue;
+	color: white;
 }
 
-/* Style the submit button */
-#submit {
-  background-color: blue;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+@media only screen and (min-width: 510px){
+	#container{
+		width: 80%;
+		color: green;
+  }
+	
+	#submit{
+		background-color: green;
+		width: 30%;
+		float: right;
+		margin-top: 40px;
+	}
+	
+	body{
+	  font-size: 1.2em;
+  }
+	
 }
 
-/* Style the submit button on hover */
-#submit:hover {
-  background-color: darkblue;
+@media only screen and (min-width: 800px){
+	#container{
+		width: 75%;
+		color: pink;
+	  flex-wrap: nowrap;
+  }
+	
+	#submit{
+		background-color: pink;
+		width: 15%;
+		float: right;
+		margin-top: 60px;
+	}
+	
+	body{
+	  font-size: 1em;
+  }
 }
