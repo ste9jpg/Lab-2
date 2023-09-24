@@ -12,6 +12,7 @@ body{
   padding: 20px;
   text-align: center; 
   height: 350px:
+  width: 350px:
 }
 
 input{
@@ -23,7 +24,7 @@ input{
   border-radius: 4px;
 }
 
-/* Style the submit button */
+
 #submit {
   background-color: blue;
   color: white;
@@ -33,7 +34,7 @@ input{
   cursor: pointer;
 }
 
-/* Style the submit button on hover */
+
 #submit:hover {
   background-color: darkblue;
 }
