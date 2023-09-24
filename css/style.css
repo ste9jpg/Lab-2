@@ -1,59 +1,42 @@
-* {
-  box-sizing: border-box;
+/* Style the labels and input fields with light blue color */
+label,
+input[type="email"],
+input[type="phone"],
+input[type="date"],
+input[type="submit"] {
+  color: lightblue;
 }
 
-body{
-	line-height: 3em;
-	font-family: Arial;
-	font-size: 1em;
+/* Add some padding and margin to the form elements */
+label,
+input[type="email"],
+input[type="phone"],
+input[type="date"],
+input[type="submit"] {
+  padding: 5px;
+  margin: 5px;
 }
 
-h1{
-	font-size: 2.5em;
-	line-height: 1.5em;
-	padding:  20px;
-	
-}
-
-form{
-	margin: 0 auto;
-	
-}
-
-#email, #number, #dateOfBirth{
-	width: 100%;
-  padding: 15px 20px;
-  margin: 8px 0;
-  border: 2px solid #ccc;
+/* Style the form container */
+#container {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid blue;
   border-radius: 5px;
-  box-sizing: border-box;
 }
 
-.float{
-	padding: 20px;
-	float: left;SS
-}
-
-#submit{
-	clear: both;
-	float: left;
-	background-color: gray;
+/* Style the submit button */
+#submit {
+  background-color: blue;
   color: white;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin: 8px 20px;
+  cursor: pointer;
 }
 
-@media only screen and (min-width: 800px){
-	#wrap{
-		width: 70%;
-		color: green;
-	  flex-wrap: nowrap;
-  }
-	
-	#submit{
-		background-color: green;
-		
-	}
+/* Style the submit button on hover */
+#submit:hover {
+  background-color: darkblue;
 }
+
